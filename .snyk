@@ -1,0 +1,119 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - bitcoinfiles > bitbox-cli > bip32-utils > bitbox-cli > babel-register > lodash:
+        patched: '2023-10-01T21:31:16.453Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          bitcoinfiles > bitbox-cli > bip32-utils > bitbox-cli > babel-register
+          > lodash
+    - slpjs > bitbox-cli > bip32-utils > bitbox-cli > babel-register > lodash:
+        patched: '2023-10-01T21:31:16.453Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          slpjs > bitbox-cli > bip32-utils > bitbox-cli > babel-register >
+          lodash
+    - bitcoinfiles > bitbox-cli > bip32-utils > bitbox-cli > babel-cli > babel-core > lodash:
+        patched: '2023-10-01T21:31:16.453Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          bitcoinfiles > bitbox-cli > bip32-utils > bitbox-cli > babel-cli >
+          babel-core > lodash
+    - slpjs > bitbox-cli > bip32-utils > bitbox-cli > babel-cli > babel-core > lodash:
+        patched: '2023-10-01T21:31:16.453Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          slpjs > bitbox-cli > bip32-utils > bitbox-cli > babel-cli > babel-core
+          > lodash
+    - bitcoinfiles > bitbox-cli > bip32-utils > bitbox-cli > babel-preset-env > babel-plugin-transform-es2015-block-scoping > lodash:
+        patched: '2023-10-01T21:31:16.453Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          bitcoinfiles > bitbox-cli > bip32-utils > bitbox-cli >
+          babel-preset-env > babel-plugin-transform-es2015-block-scoping >
+          lodash
+    - slpjs > bitbox-cli > bip32-utils > bitbox-cli > babel-preset-env > babel-plugin-transform-es2015-block-scoping > lodash:
+        patched: '2023-10-01T21:31:16.453Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          slpjs > bitbox-cli > bip32-utils > bitbox-cli > babel-preset-env >
+          babel-plugin-transform-es2015-block-scoping > lodash
+    - bitcoinfiles > bitbox-cli > bip32-utils > bitbox-cli > babel-cli > babel-core > babel-types > lodash:
+        patched: '2023-10-01T21:31:16.453Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          bitcoinfiles > bitbox-cli > bip32-utils > bitbox-cli > babel-cli >
+          babel-core > babel-types > lodash
+    - slpjs > bitbox-cli > bip32-utils > bitbox-cli > babel-cli > babel-core > babel-types > lodash:
+        patched: '2023-10-01T21:31:16.453Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          slpjs > bitbox-cli > bip32-utils > bitbox-cli > babel-cli > babel-core
+          > babel-types > lodash
+    - bitcoinfiles > bitbox-cli > bip32-utils > bitbox-cli > babel-cli > babel-core > babel-generator > lodash:
+        patched: '2023-10-01T21:31:16.453Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          bitcoinfiles > bitbox-cli > bip32-utils > bitbox-cli > babel-cli >
+          babel-core > babel-generator > lodash
+    - slpjs > bitbox-cli > bip32-utils > bitbox-cli > babel-cli > babel-core > babel-generator > lodash:
+        patched: '2023-10-01T21:31:16.453Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          slpjs > bitbox-cli > bip32-utils > bitbox-cli > babel-cli > babel-core
+          > babel-generator > lodash
+    - bitcoinfiles > bitbox-cli > bip32-utils > bitbox-cli > babel-cli > babel-core > babel-traverse > lodash:
+        patched: '2023-10-01T21:31:16.453Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          bitcoinfiles > bitbox-cli > bip32-utils > bitbox-cli > babel-cli >
+          babel-core > babel-traverse > lodash
+    - slpjs > bitbox-cli > bip32-utils > bitbox-cli > babel-cli > babel-core > babel-traverse > lodash:
+        patched: '2023-10-01T21:31:16.453Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          slpjs > bitbox-cli > bip32-utils > bitbox-cli > babel-cli > babel-core
+          > babel-traverse > lodash
+    - bitcoinfiles > bitbox-cli > bip32-utils > bitbox-cli > babel-cli > babel-core > babel-template > lodash:
+        patched: '2023-10-01T21:31:16.453Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          bitcoinfiles > bitbox-cli > bip32-utils > bitbox-cli > babel-cli >
+          babel-core > babel-template > lodash
+    - slpjs > bitbox-cli > bip32-utils > bitbox-cli > babel-cli > babel-core > babel-template > lodash:
+        patched: '2023-10-01T21:31:16.453Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          slpjs > bitbox-cli > bip32-utils > bitbox-cli > babel-cli > babel-core
+          > babel-template > lodash
+    - bitcoinfiles > bitbox-cli > bip32-utils > bitbox-cli > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-define-map > lodash:
+        patched: '2023-10-01T21:31:16.453Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          bitcoinfiles > bitbox-cli > bip32-utils > bitbox-cli >
+          babel-preset-env > babel-plugin-transform-es2015-classes >
+          babel-helper-define-map > lodash
+    - slpjs > bitbox-cli > bip32-utils > bitbox-cli > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-define-map > lodash:
+        patched: '2023-10-01T21:31:16.453Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          slpjs > bitbox-cli > bip32-utils > bitbox-cli > babel-preset-env >
+          babel-plugin-transform-es2015-classes > babel-helper-define-map >
+          lodash
+    - bitcoinfiles > bitbox-cli > bip32-utils > bitbox-cli > babel-preset-env > babel-plugin-transform-es2015-sticky-regex > babel-helper-regex > lodash:
+        patched: '2023-10-01T21:31:16.453Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          bitcoinfiles > bitbox-cli > bip32-utils > bitbox-cli >
+          babel-preset-env > babel-plugin-transform-es2015-sticky-regex >
+          babel-helper-regex > lodash
+    - slpjs > bitbox-cli > bip32-utils > bitbox-cli > babel-preset-env > babel-plugin-transform-es2015-sticky-regex > babel-helper-regex > lodash:
+        patched: '2023-10-01T21:31:16.453Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          slpjs > bitbox-cli > bip32-utils > bitbox-cli > babel-preset-env >
+          babel-plugin-transform-es2015-sticky-regex > babel-helper-regex >
+          lodash
